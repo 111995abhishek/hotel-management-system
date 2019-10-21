@@ -1,8 +1,6 @@
 from django.contrib import admin
 from .models import *
 
-class RoomsAdminForm(forms.ModelForm):
-    def __init__(self,*args,**kwargs):
 
 
 class HotelAdmin(admin.ModelAdmin):
