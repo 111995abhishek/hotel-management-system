@@ -4,7 +4,7 @@ from  .models import Hotel,Rooms,Manager,Guest,Bookings
 class HotelSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Hotel
-        fields = ('hotel_name', 'id')
+        fields = ('id','hotel_name',)
 
 class RoomsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:

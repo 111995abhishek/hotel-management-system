@@ -2,7 +2,7 @@ from django.db import models
 from django import *
 from django.db.models import CASCADE,DO_NOTHING
 class Hotel(models.Model):
-    hotel_name=models.CharField(max_length=200)
+    hotel_name = models.CharField(max_length=200)
 
     def __str__(self):
         return self.hotel_name
